@@ -15,3 +15,5 @@ app.listen(process.env.PORT, async () => {
   await connected();
   console.log(`server  runing  on port  http://localhost:${process.env.PORT}`);
 });
+
+module.exports = app
