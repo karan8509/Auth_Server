@@ -1,6 +1,7 @@
 const User = require("../models/User.Model");
 const bcrypt = require("bcrypt");
 const ObjectId = require("mongodb")
+
 const signup = async (req, res) => {
   try {
     const { name, email, password } = req.body;
